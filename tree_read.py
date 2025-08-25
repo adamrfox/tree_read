@@ -14,5 +14,5 @@ if __name__ == "__main__":
             print(full_name)
             subprocess.run(['cat', full_name], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     end_time = datetime.now().strftime("%H:%M:%S")
-    print("Starting at: " + start_time)
+    print("Started at: " + start_time)
     print("Ended at: " +  end_time)
