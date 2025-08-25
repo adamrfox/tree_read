@@ -7,8 +7,6 @@ from datetime import datetime
 
 
 if __name__ == "__main__":
-    dirs = []
-    dirs.append(sys.argv[1])
     start_time = datetime.now().strftime("%H:%M:%S")
     for (root, dirs, files) in os.walk(sys.argv[1], topdown=True):
         for f in files:
